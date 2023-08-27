@@ -7,38 +7,37 @@ export default function About() {
             <div className="flex">
                 <div className="flex-full">
                     <AboutCard
-                        title="UX/UI Design"
+                        title="Computer Vision"
                         icon="/icons/design.svg"
-                        description="I create design  products with unique ideas."
-                        projects={7} />
+                        description="I have developed many powerful applications and algorithms like a novel, unsupervised object detector using heatmaps and a sub-image search technique."
+                        projects={9} />
                     <AboutCard
-                        title="Web Design"
+                        title="Computational Neurology"
                         icon="/icons/code.svg"
-                        description="I develop Front-End with coding super smooth."
-                        projects={10} />
+                        description="I developed a novel algorithm to model hippocampal-entorhinal interactions on a computer with ground-breaking results (a research paper will publish soon)!"
+                        projects={4} />
                     <AboutCard
-                        title="Mobile"
+                        title="Robotics"
                         icon="/icons/phone.svg"
-                        description="I develop cross-platform mobile applications."
-                        projects={7} />
+                        description="From holonomic swerve drives to quadrupedal robot dogs to autonomous vehicles, I have experience across many realms of robotics. "
+                        projects={20} />
                 </div>
                 
                 <div className="flex-full about-text">
                     <h5 className="gray">Introduce</h5>
-                    <h1 className="white">Hello, I&#39;m Skander Blaiti</h1>
-                    <h3 className="white">Design is not just what it looks like. Design is how it works!</h3>
-                    <p className="gray">I have proceeded my dream to be a developer as it has been my lifelong ambition. I am a talented Front-End developer with a UI/UX design background. During my 4 years of work as a freelancer, I had the opportunity to enhance my expertise by collaborating with different companies and by creating useful content for both business and customer use.<br/><br/>
-                    I am naturally persevered, self-confident, quietly curios, innovative and constantly challenging my skills.</p>
+                    <h1 className="white">Hello, I&#39;m Krishna Shah</h1>
+                    <h3 className="white">Research is not a goal but a process.</h3>
+                    <p className="gray">I have always strived to research the intricacies of the human brain to understand the genesis of human intelligence better. All my robotics projects and AI algorithms serve as a stepping stone to a new era of generally intelligence machines and a nuanced understanding of the human brain.</p>
                 </div>
             </div>
 
-            <div className="flex partners justify-space">
+            <!--<div className="flex partners justify-space">
                 <Image src="/images/partners/wallety.png" height={45} width={180} alt="wallety" />
                 <Image src="/images/partners/artisty.png" height={45} width={180} alt="artisty" />
                 <Image src="/images/partners/khedma-lik.png" height={45} width={180} alt="khedma-lik" />
                 <Image src="/images/partners/directy.png" height={45} width={180} alt="directy" />
                 <Image src="/images/partners/telefy.png" height={45} width={180} alt="telefy" />
-            </div>
+            </div> -->
         </section>
     )
 }
