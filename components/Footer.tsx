@@ -7,18 +7,8 @@ export default function Footer() {
 
     return (
         <footer className="light-bg flex justify-space">
-            <span className="white">Copyright © {year} <Link href="/">Blaiti</Link> - All rights reserved.</span>
+            <span className="white">Copyright © {year} <Link href="/">Krishna</Link> - All rights reserved. (Template by Blaiti)</span>
             <ul className="flex">
-                <li>
-                    <a href="https://www.facebook.com/blaiti" target="_blank" rel="noreferrer">
-                        <Image src="/icons/facebook.svg" width={24} height={24} alt="facebook-icon" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/blaiti.codes" target="_blank" rel="noreferrer">
-                        <Image src="/icons/instagram.svg" width={24} height={24} alt="instagram-icon" />
-                    </a>
-                </li>
                 <li>
                     <a href="https://www.linkedin.com/in/skanderblaiti" target="_blank" rel="noreferrer">
                         <Image src="/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />

@@ -8,17 +8,17 @@ export default function About() {
                 <div className="flex-full">
                     <AboutCard
                         title="Computer Vision"
-                        icon="/icons/design.svg"
+                        icon="/icons/cv.png"
                         description="I have developed many powerful applications and algorithms like a novel, unsupervised object detector using heatmaps and a sub-image search technique."
                         projects={9} />
                     <AboutCard
                         title="Computational Neurology"
-                        icon="/icons/code.svg"
+                        icon="/icons/ai.png"
                         description="I developed a novel algorithm to model hippocampal-entorhinal interactions on a computer with ground-breaking results (a research paper will publish soon)!"
                         projects={4} />
                     <AboutCard
                         title="Robotics"
-                        icon="/icons/phone.svg"
+                        icon="/icons/robot.png"
                         description="From holonomic swerve drives to quadrupedal robot dogs to autonomous vehicles, I have experience across many realms of robotics. "
                         projects={20} />
                 </div>
@@ -31,8 +31,8 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="flex partners justify-space">
-                <Image src="/images/partners/dsl.png" height={45} width={180} alt="dsl" />
+            <div className="flex partners justify-space justify-center">
+                <Image src="/images/partners/dsl.png" height={180} width={180} alt="dsl" />
             </div>
         </section>
     )
