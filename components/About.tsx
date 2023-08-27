@@ -33,6 +33,7 @@ export default function About() {
 
             <div className="flex partners justify-space justify-center">
                 <Image src="/images/partners/dsl.png" height={180} width={180} alt="dsl" />
+                <Image src="/images/partners/b4d.png" height={180} width={180} alt="b4d" />
             </div>
         </section>
     )
