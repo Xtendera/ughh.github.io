@@ -31,15 +31,9 @@ export default function About() {
                 </div>
             </div>
 
-            <Comment>
             <div className="flex partners justify-space">
-                <Image src="/images/partners/wallety.png" height={45} width={180} alt="wallety" />
-                <Image src="/images/partners/artisty.png" height={45} width={180} alt="artisty" />
-                <Image src="/images/partners/khedma-lik.png" height={45} width={180} alt="khedma-lik" />
-                <Image src="/images/partners/directy.png" height={45} width={180} alt="directy" />
-                <Image src="/images/partners/telefy.png" height={45} width={180} alt="telefy" />
+                <Image src="/images/partners/dsl.png" height={45} width={180} alt="dsl" />
             </div>
-            </Comment>
         </section>
     )
 }
