@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
         <meta property="og:site_name" content="Krishna - AI Researcher" />
         <meta property="og:locale" content="en_GB" />
-        <title data-rh="true">Krishna - AI Researcher</title>
+        <title data-rh="true">OOOGA BOOGA</title>
         <meta data-rh="true" property="og:type" content="website"/>
         <meta data-rh="true" property="og:title" content="Krishna - AI Researcher"/>
         <meta data-rh="true" property="og:image" content="/images/blaiti.png"/>
